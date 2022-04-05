@@ -1,0 +1,29 @@
+<html><head><title>AFCI Formation</title>
+        <style>body{     font-family: arial;    background: green;   }
+            .card
+            {
+                width:1px;  height: 1px;
+                position:absolute;  top:20%;
+                left: 20%;  background: white;
+                color: blue;    text-align: center;
+                line-height: "300px";   font-size: 40px;
+                box-shadow: 0 0 15px rgba(0,0,0,0.1);
+                animation-name:sample;  animation-duration: 5s;
+                animation-iteration-count:infinite;    
+            }   
+            @keyframes sample{
+                from{
+                    border-radius: 0%;
+                }
+                to{
+                    border-radius: 50%;
+                    background-color: red;  top: 50%;   width:400px;    height: 400px;
+                }
+            }
+        </style>       
+    </head>
+    <body>
+           <h1>Animation</h1>  
+           <div class="card"></div>
+    </body>
+</html>
